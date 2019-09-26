@@ -14,6 +14,8 @@
 		49140B6720FDFF990088E0AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49140B6520FDFF990088E0AA /* LaunchScreen.storyboard */; };
 		49140B7220FDFF990088E0AA /* MessagesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49140B7120FDFF990088E0AA /* MessagesTests.swift */; };
 		49140B7D20FDFF990088E0AA /* MessagesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49140B7C20FDFF990088E0AA /* MessagesUITests.swift */; };
+		49140B8B20FE033A0088E0AA /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49140B8A20FE033A0088E0AA /* MessageTableViewCell.swift */; };
+		49140B8D20FE1DE40088E0AA /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49140B8C20FE1DE40088E0AA /* ToggleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		49140B7820FDFF990088E0AA /* MessagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessagesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49140B7C20FDFF990088E0AA /* MessagesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesUITests.swift; sourceTree = "<group>"; };
 		49140B7E20FDFF990088E0AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49140B8A20FE033A0088E0AA /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		49140B8C20FE1DE40088E0AA /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				49140B5C20FDFF970088E0AA /* AppDelegate.swift */,
 				49140B5E20FDFF970088E0AA /* ViewController.swift */,
+				49140B8A20FE033A0088E0AA /* MessageTableViewCell.swift */,
+				49140B8C20FE1DE40088E0AA /* ToggleTableViewCell.swift */,
 				49140B6020FDFF970088E0AA /* Main.storyboard */,
 				49140B6320FDFF990088E0AA /* Assets.xcassets */,
 				49140B6520FDFF990088E0AA /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49140B5F20FDFF970088E0AA /* ViewController.swift in Sources */,
+				49140B8D20FE1DE40088E0AA /* ToggleTableViewCell.swift in Sources */,
 				49140B5D20FDFF970088E0AA /* AppDelegate.swift in Sources */,
+				49140B8B20FE033A0088E0AA /* MessageTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
